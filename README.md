@@ -39,12 +39,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Spotify app
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/schermaflbeelding-klein-1.png" width="375px" alt="omschrijving van de pagina">
+  Zoekopdrachten-pagina
+  <img src="readme-images/schermaflbeelding-klein-1.png" width="375px" alt="Zoek">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/schermaflbeelding-klein-2.png" width="375px" alt="omschrijving van de pagina">
+  Home-pagina 
+  <img src="readme-images/schermaflbeelding-klein-2.png" width="375px" alt="Home">
  
 </details>
 
@@ -59,6 +59,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   - Voiceover kan niet goed gebruikt worden op spotify doordat de hierarchie in de app niet duidelijk is.
+  - Contrast niveau is goed 18.88
+  - Bij de verschillende vision emulations blijft er alsnog een duidelijk beeld van de website. de website blijft toegangkelijk voor mensen die kleuren niet goed kunnen onderscheiden of slecht contrast zien.
+
+  #### Screenshot(s) van de vision emulation (big screen):
+  Zoek-pagina 
+  <img src="readme-images/schermafbeelding-blurred.png" width="375px" alt="Zoeken">
+
+  #### Screenshot(s) van de tweede pagina (small screen):
+  Zoek-pagina 
+  <img src="readme-images/schermafbeelding-no-red.png" width="375px" alt="Zoeken">
+ 
+
+
 
 
 </details>
