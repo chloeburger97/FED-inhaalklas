@@ -38,12 +38,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je opdracht:
   Spotify app
 
-  #### Screenshot(s) van de eerste pagina (small screen): 
-  Zoekopdrachten-pagina
+  #### Screenshot(s) van de eerste pagina (small screen): Zoekopdrachten-pagina
   <img src="readme-images/schermaflbeelding-klein-1.png" width="375px" alt="Zoek">
 
-  #### Screenshot(s) van de tweede pagina (small screen):
-  Home-pagina 
+  #### Screenshot(s) van de tweede pagina (small screen): Home-pagina 
   <img src="readme-images/schermaflbeelding-klein-2.png" width="375px" alt="Home">
  
 </details>
@@ -62,12 +60,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Contrast niveau is goed 18.88
   - Bij de verschillende vision emulations blijft er alsnog een duidelijk beeld van de website. de website blijft toegangkelijk voor mensen die kleuren niet goed kunnen onderscheiden of slecht contrast zien.
 
-  #### Screenshot(s) van de vision emulation (big screen):
-  Zoek-pagina 
+  #### Screenshot(s) van de vision emulation (big screen): Zoekopdrachten-pagina 
   <img src="readme-images/schermafbeelding-blurred.png" width="375px" alt="Zoeken">
 
-  #### Screenshot(s) van de tweede pagina (small screen):
-  Zoek-pagina 
+  #### Screenshot(s) van de tweede pagina (small screen): Zoekopdrachten-pagina
   <img src="readme-images/schermafbeelding-no-red.png" width="375px" alt="Zoeken">
  
 
