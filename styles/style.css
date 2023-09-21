@@ -15,8 +15,9 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-text:white;
+	--color-background:rgb(32, 29, 29);
+
 }
 
 
@@ -29,3 +30,24 @@
 
 /* jouw code */
 
+
+body {
+	background-color:var(--color-background);
+	color:var(--color-text);
+}
+
+
+main ul {
+	display: flex;
+}
+
+
+
+ul ul li {
+	display: flex;
+
+}
+
+li{
+	list-style-type: none;
+}

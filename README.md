@@ -80,10 +80,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets.png" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+  <img src="readme-images/breakdown-dynamisch.png" width="375px" alt="breakdown van een dynamisch deel">
 
   ### wellicht nog een dynamisch deel (bijv filter): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
@@ -100,20 +100,43 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  De layout toepassen ging naar mijn mening wel goed.
+  <img src="images/screenshot-website-week-1.png" width="375px" alt="css styles">
+
+  Ik heb nog wel moeite om de juiste ul aan te moeten spreken omdat het er veel zijn.
+  Ik wil dit graag op een logischere manier direct kunnen aanspreken zodat de code niet rommelig is.
+  Hieronder foto's van de code:
+
+  <img src="images/screenshot-feedback-1-1.png" width="375px" alt="css styles">
+
+  <img src="images/screenshot-feedback-1-2.png" width="375px" alt="css styles">
+
+
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+#### Donna:
+- Hoe je een menu eruit laat komen ook alweer als je erop klikt
+
+#### Chloé
+- Opmaak van menu zou ik in html zetten?
+- Hoe kan ik van een <h3> een link maken die niet linkt naar een pagina?
+- Hoe kan ik de <li> juist aanspreken om flexbasis en flexgrow toe te passen?
+
+#### Malik:
+-  Hoe moet ik het hamburger menu uitwerken?
 
 
-  ### Verslag van meeting
+
+#### Jaouad:
+- Onduidelijkheid hoe ik een stuk van een bepaald deel van de content in moet delen in html.
+- Vraag of iets een <p> of <h3> is?
+- Hulp nodig bij de media querries! Waar begin je?
+
+
+### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - punt 1
@@ -133,7 +156,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  De layout toepassen ging naar mijn mening wel goed.
+  Ik heb nog wel moeite om de juiste ul aan te moeten spreken omdat het er veel zijn.
+  Ik wil dit graag op een logischere manier direct kunnen aanspreken zodat de code niet rommelig is.
+  
+  <img>
+
 
 
   ### Agenda voor meeting
