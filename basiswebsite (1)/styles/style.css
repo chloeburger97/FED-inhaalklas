@@ -1,8 +1,10 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
 }
 
 
@@ -15,13 +17,22 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-background-root: rgb(0, 0, 0);
+	--color-background-raised: rgb(18, 18, 18, 1);
+
+	--text-subdued: rgb 167 167 167 1;
+	--album-top-color: rgb(179, 179, 179, 0.2);
+	--album-playbutton: rgb(30, 215, 96);
+
+	--text-color-title: rgb(255, 255, 255);
+	--fallback-fonts: Helvetica Neue, helvetica, arial, Hiragino Kaku Gothic Pro, Meiryo, MS Gothic;
+
+	--border-radius: 0.4em;
 }
 
-
-
-
+html {
+	height: 100dvh;
+}
 
 /****************/
 /* JOUW STYLING */
@@ -29,3 +40,231 @@
 
 /* jouw code */
 
+body {
+	height: 100dvh;
+	background-color: var(--color-background-root);
+	color: var(--color-text);
+	margin: 0;
+	display: grid;
+	grid-template-columns: 20em 1fr;
+	grid-template-rows: calc(100dvh - 10em) 10em;
+	row-gap: 0.5em;
+	column-gap: 0.5em;
+	color: var(--text-color-title)
+}
+
+
+header {
+	grid-column-start: 1;
+	grid-column-end: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	background-color: var(--color-background-root);
+	left: -1em;
+	margin-left: .5em;
+}
+
+
+nav ul li {
+	font-weight: 900;
+
+}
+
+/* nav 1 home en zoeken*/
+
+nav:first-of-type {
+	background-color: var(--color-background-raised);
+	border-radius: var(--border-radius);
+	padding: .5em;
+	font-family: var(--fallback-fonts);
+	margin-top: .5em;
+}
+
+header nav:nth-of-type(1) li {
+	margin-top: 1em;
+}
+
+
+
+/* nav 2 bibliotheek*/
+
+nav:nth-of-type(2) {
+	background-color: var(--color-background-raised);
+	border-radius: var(--border-radius);
+	font-family: var(--fallback-fonts);
+	margin-top: .5em;
+	height: 42.81em;
+	overflow: auto;
+}
+
+
+header nav ul:nth-of-type(2) a:first-of-type {
+	display: flex;
+	flex-grow: 1;
+	gap: .625em;
+	background-color: aqua;
+	border-bottom-left-radius:var(--border-radius);
+	border-top-left-radius:var(--border-radius);
+}
+
+
+nav ul:nth-of-type(2) li {
+	position: relative;
+	gap: .625em;
+	font-weight: 300;
+	font-family: var(--fallback-fonts);
+	padding:.23em;
+	
+
+}
+
+
+nav ul:nth-of-type(2) img {
+	height: 3em;
+}
+
+
+li {
+	list-style-type: none;
+}
+
+
+header nav p {
+	font-size: small;
+	position: absolute;
+	left: 5em;
+	top: 1em;
+}
+
+
+main {
+	grid-column-start: 2;
+	grid-column-end: 3;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	display: grid;
+	grid-template-rows: 4em 2em 1fr;
+	overflow: scroll;
+	border-radius: var(--border-radius);
+	background-color: var(--color-background-raised);
+	font-family: var(--fallback-fonts);
+}
+
+
+main h2 {
+	background-color: var(--color-background-raised);
+	margin: 0;
+}
+
+
+main a {
+	display: flex;
+	margin: 0;
+}
+
+
+main ul:nth-of-type(1) {
+	background-color: var(--color-background-raised);
+	margin-right: 2.5em;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: .625em;
+}
+
+
+
+
+
+main ul:first-of-type li {
+	list-style-type: none;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+
+main ul:first-of-type a {
+	padding: 10px;
+	background-color: var(--album-top-color);
+	height: 4em;
+	border-radius: var(--border-radius);
+	display: flex;
+	gap: .625em;
+	flex-grow: 1;
+}
+
+
+main ul:first-of-type button {
+	right: 0.9em;
+	position: absolute;
+	background-color: var(--album-playbutton);
+	border: none;
+	border-radius: 50%;
+	padding: 0.6em 0.4em;
+	cursor: pointer;
+
+}
+
+
+main ul:nth-of-type(2) {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+@media (width > 56em) {
+	main ul:nth-of-type(1) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+
+@media (width > 56em) {
+	main ul:nth-of-type(2) {
+		grid-template-columns: repeat(4, 1fr);
+	}
+}
+
+@media (width > 40em) {
+	main ul:nth-of-type(2) {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+
+ main ul:nth-of-type(2) a {
+	background-color: red;
+	flex-direction: column;
+ }
+
+main ul:nth-of-type(2) li a {
+	padding: 2em;
+	border-radius:var(--border-radius)
+}
+
+main ul:nth-of-type(2) li {
+	margin: 2em;
+
+}
+
+main ul:nth-of-type(2) li img {
+	width: 100%;
+
+
+}
+
+
+
+a {
+	text-decoration: none;
+	color: var(--text-color-title)
+}
+
+
+form {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	background-color: var(--color-background-muziek);
+	font-family: var(--fallback-fonts);
+}
