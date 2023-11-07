@@ -223,9 +223,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/eind-scherm-groot" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/eind-scherm-middel" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/eind-scherm-klein" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eind-scherm-groot.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eind-scherm-middel.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eind-scherm-klein.pmg" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
@@ -258,6 +258,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>continu bijhouden terwijl je werkt</summary>
 
   bron 1 stackoverflow bij <forum> @media
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/bron-stackoverflow.png" width="375px" alt="bummer">
 
 </details>
