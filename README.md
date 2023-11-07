@@ -63,7 +63,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/schermafbeelding-blurred.png" width="375px" alt="Zoeken">
 
   #### Screenshot(s) van de tweede pagina (small screen): Zoekopdrachten-pagina
-  <img src="readme-images/schermafbeelding-red.jpg" width="375px" alt="Zoeken">
+  <img src="readme-images/scherm-rood.png.jpg" width="375px" alt="Zoeken">
 </details>
 
 ## Breakdownschets (week 1)
@@ -76,8 +76,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/breakdown-dynamisch.png" width="375px" alt="breakdown van een dynamisch deel">
-
-
+</detail>
 
 
 ## Voortgang 1 (week 2)
@@ -122,8 +121,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   hier na afloop snel de uitkomsten van de meeting vastleggen
   - De opmaak van het menu kan het beste opgemaakt owedne uit 2 verschillende <nav>'s aan de hand daarvan kan je met grid weer verder werken om de juiste layout te maken.
   - Ik merk nog dat ik moeitte heb om de juiste elementen aan te spreken. Dit gaat wel al steeds wat beter. Wel weet ik hoe ik de jsuitse html moet schrijven en in welke volgorde dit dan is.
-
-
 </details>
 
 
