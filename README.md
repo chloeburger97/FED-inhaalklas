@@ -63,7 +63,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/schermafbeelding-blurred.png" width="375px" alt="Zoeken">
 
   #### Screenshot(s) van de tweede pagina (small screen): Zoekopdrachten-pagina
-  <img src="readme-images/scherm-rood.png.jpg" width="375px" alt="Zoeken">
+  <img src="readme-images/scherm-rood.png" width="375px" alt="Zoeken">
 </details>
 
 ## Breakdownschets (week 1)
