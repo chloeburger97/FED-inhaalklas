@@ -1,2 +1,7 @@
 // JavaScript Document
-console.log("hi");
+
+
+function darkmode() {
+    var element = document:root;
+    element.classList.toggle("dark-mode");
+  }
