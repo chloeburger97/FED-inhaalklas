@@ -63,7 +63,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/schermafbeelding-blurred.png" width="375px" alt="Zoeken">
 
   #### Screenshot(s) van de tweede pagina (small screen): Zoekopdrachten-pagina
-  <img src="readme-images/schermafbeelding-no-red.png" width="375px" alt="Zoeken">
+  <img src="readme-images/schermafbeelding-red.jpg" width="375px" alt="Zoeken">
 </details>
 
 ## Breakdownschets (week 1)
@@ -77,9 +77,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/breakdown-dynamisch.png" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-</details>
 
 
 
@@ -225,7 +222,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/eind-scherm-groot.png" width="375px" alt="uitomst opdracht 1">
   <img src="readme-images/eind-scherm-middel.png" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/eind-scherm-klein.pmg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eind-scherm-klein.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
