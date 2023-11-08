@@ -234,15 +234,15 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Ik snap @media nu en kan het zelf toepassen!
   <img src="readme-images/media-toepassen.png" width="375px" alt="top">
 
-  
-
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
   - Voor de <form> heb ik veel moeite gehad om de buttons juist te flexen en juist te verdelen als er responsive wordt gehandelt
   <img src="readme-images/schermafbeelding-wat-ging-niet-goed.png" width="375px" alt="bummer">
 
-  - Voor de tweede pagina is het me niet gelukt de eerste <ul> uit de main te verbergen zonder dat alles kapot gaat.
+  - Voor de tweede pagina lukte het me eerst niet om de eerste <ul> uit de main te verbergen zonder dat alles kapot gaat.
+  - Dit is uiteindelijk gelukt door drie stijlsheets te gebruiken. Hierbij gebruik je een stijlsheet algemeen voor de bais elementen die het zelfde zijn.
+  - Daarnaast gebruik je twee andere stijlsheets om speciefieke verandering te maken op de desbetreffende pagina's.
 </details>
 
 
